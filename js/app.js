@@ -23,6 +23,7 @@ var player1Array = [];
 var player2Array = [];
 box.on("click", function() {
   var move = box.index(this);
+  
   console.log(move);
 
 
@@ -55,15 +56,9 @@ box.on("click", function() {
   else if ($(player2Array).not(win[i]).length === 0 && $(win[i]).not(player2Array).length === 0) {
      alert("Player O wins")
    }
-  
+
+
 }
-  if (($(".box" === 'X').length + $(".box" === 'O').length) === 9) {
- alert("Draw");
-  }
+
 });
-
-
-
-
   });
-
