@@ -1,8 +1,34 @@
-#board {
-  margin-top: 10px;
+.square{
+    width:100px;
+    height:100px;
 }
 
-.box {
-  border: 1px solid black;
-  height: 150px;
+.v{
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+}
+
+.h{
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+
+table{
+	margin: auto;
+}
+
+#heading{
+	text-align: center;
+}
+
+.left1, .middle1, .right1, .left2, .middle2, .right2, .left3, .middle3, .right3{
+	text-align: center;
+}
+
+.button{
+	margin-left: 46%;
+}
+
+.box{
+	text-align: center;
 }
