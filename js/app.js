@@ -51,13 +51,13 @@ box.on("click", function() {
      alert("Player X Wins")
    }
 
-   
+
   else if ($(player2Array).not(win[i]).length === 0 && $(win[i]).not(player2Array).length === 0) {
      alert("Player O wins")
    }
   
 }
-  if (($(".box" == 'X').length + $(".box" == 'O').length) === 9) {
+  if (($(".box" === 'X').length + $(".box" === 'O').length) === 9) {
  alert("Draw");
   }
 });
