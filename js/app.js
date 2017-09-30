@@ -1,4 +1,3 @@
-// wait for the DOM to finish loading
 $(document).ready(function() {
 
 var box = $(".box");
@@ -23,7 +22,7 @@ var player1Array = [];
 var player2Array = [];
 box.on("click", function() {
   var move = box.index(this);
-  
+
   console.log(move);
 
 
