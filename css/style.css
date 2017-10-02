@@ -26,9 +26,17 @@ table{
 }
 
 .button{
-	margin-left: 46%;
+    text-align:center;
 }
 
 .box{
 	text-align: center;
+}
+
+html{
+    background-color: #BDECF7;
+}
+
+form{
+    text-align:centerl;
 }

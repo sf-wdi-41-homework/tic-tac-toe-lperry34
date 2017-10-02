@@ -25,7 +25,6 @@ box.on("click", function() {
 
   console.log(move);
 
-
   if ($(this).text() == "") {
     if (player1) {
       $(box[move]).text(x);
@@ -55,7 +54,6 @@ box.on("click", function() {
   else if ($(player2Array).not(win[i]).length === 0 && $(win[i]).not(player2Array).length === 0) {
      alert("Player O wins")
    }
-
 
 }
 
